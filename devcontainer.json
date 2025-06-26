@@ -1,7 +1,7 @@
 {
 	"name": "Node Development",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "images/node/node-Dockerfile"
 	},
 	"customizations": {
 		"vscode": {
