@@ -56,7 +56,7 @@
 	"workspaceFolder": "/opt/app",
 	"mounts": [
 		"source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached,readonly",
-		"source=${localWorkspaceFolder}/.claude,target=/home/node/.claude,type=bind,consistency=cached"
+		"source=${localWorkspaceFolder}/.devcontainer/.claude,target=/home/node/.claude,type=bind,consistency=cached"
 	],
 	"features": {
 		"ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
